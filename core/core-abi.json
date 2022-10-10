@@ -1,91 +1,91 @@
 {
     "methods": {
         "get_configs": {
-            "input": "core.get_configs_arguments",
-            "output": "core.get_configs_result",
+            "argument": "core.get_configs_arguments",
+            "return": "core.get_configs_result",
             "description": "get configs of protocol",
-            "entryPoint": 729792716,
-            "readOnly": true
+            "entry_point": 729792716,
+            "read_only": true
         },
         "set_configs": {
-            "input": "core.set_configs_arguments",
-            "output": "core.set_configs_result",
+            "argument": "core.set_configs_arguments",
+            "return": "core.set_configs_result",
             "description": "set configs of protocol",
-            "entryPoint": 1609610118,
-            "readOnly": false
+            "entry_point": 1609610118,
+            "read_only": false
         },
         "get_reserve": {
-            "input": "core.get_reserve_arguments",
-            "output": "core.get_reserve_result",
+            "argument": "core.get_reserve_arguments",
+            "return": "core.get_reserve_result",
             "description": "Get the liquidity reserves of a pair of tokens",
-            "entryPoint": 215978684,
-            "readOnly": true
+            "entry_point": 215978684,
+            "read_only": true
         },
         "get_liquidity": {
-            "input": "core.get_liquidity_arguments",
-            "output": "core.get_liquidity_result",
+            "argument": "core.get_liquidity_arguments",
+            "return": "core.get_liquidity_result",
             "description": "Get the position of a user in a country",
-            "entryPoint": 955275014,
-            "readOnly": true
+            "entry_point": 955275014,
+            "read_only": true
         },
         "transfer_liquidity": {
-            "input": "core.transfer_liquidity_arguments",
-            "output": "core.transfer_liquidity_result",
+            "argument": "core.transfer_liquidity_arguments",
+            "return": "core.transfer_liquidity_result",
             "description": "Transfer liquidity position to another address",
-            "entryPoint": 436436928,
-            "readOnly": false
+            "entry_point": 436436928,
+            "read_only": false
         },
         "add_liquidity": {
-            "input": "core.add_liquidity_arguments",
-            "output": "core.add_liquidity_result",
+            "argument": "core.add_liquidity_arguments",
+            "return": "core.add_liquidity_result",
             "description": "Add liquidity to pair",
-            "entryPoint": 117856717,
-            "readOnly": false
+            "entry_point": 117856717,
+            "read_only": false
         },
         "remove_liquidity": {
-            "input": "core.remove_liquidity_arguments",
-            "output": "core.remove_liquidity_result",
+            "argument": "core.remove_liquidity_arguments",
+            "return": "core.remove_liquidity_result",
             "description": "Remove liquidity from pair",
-            "entryPoint": 650612145,
-            "readOnly": false
+            "entry_point": 650612145,
+            "read_only": false
         },
         "swap_tokens_in": {
-            "input": "core.swap_tokens_in_arguments",
-            "output": "core.swap_tokens_in_result",
+            "argument": "core.swap_tokens_in_arguments",
+            "return": "core.swap_tokens_in_result",
             "description": "Swap tokens with exact input",
-            "entryPoint": 2335548678,
-            "readOnly": false
+            "entry_point": 2335548678,
+            "read_only": false
         },
         "swap_tokens_out": {
-            "input": "core.swap_tokens_out_arguments",
-            "output": "core.swap_tokens_out_result",
+            "argument": "core.swap_tokens_out_arguments",
+            "return": "core.swap_tokens_out_result",
             "description": "Swap tokens with exact output",
-            "entryPoint": 3761082301,
-            "readOnly": false
+            "entry_point": 3761082301,
+            "read_only": false
         },
         "get_quote": {
-            "input": "core.get_quote_arguments",
-            "output": "core.get_quote_result",
+            "argument": "core.get_quote_arguments",
+            "return": "core.get_quote_result",
             "description": "Get quote depending on reservations",
-            "entryPoint": 1066984845,
-            "readOnly": true
+            "entry_point": 1066984845,
+            "read_only": true
         },
         "get_amount_out": {
-            "input": "core.get_amount_out_arguments",
-            "output": "core.get_amount_out_result",
+            "argument": "core.get_amount_out_arguments",
+            "return": "core.get_amount_out_result",
             "description": "Get amounts out",
-            "entryPoint": 562360101,
-            "readOnly": true
+            "entry_point": 562360101,
+            "read_only": true
         },
         "get_amount_in": {
-            "input": "core.get_amount_in_arguments",
-            "output": "core.get_amount_in_result",
+            "argument": "core.get_amount_in_arguments",
+            "return": "core.get_amount_in_result",
             "description": "Get amounts in",
-            "entryPoint": 1161269195,
-            "readOnly": true
+            "entry_point": 1161269195,
+            "read_only": true
         }
     },
-    "types": {
+    "koilib_types": {
         "nested": {
             "core": {
                 "nested": {
