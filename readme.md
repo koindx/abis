@@ -1,6 +1,6 @@
 # ABIS
 
-In this repository the ABIS and contract addresses of the main functionalities of koindx are kept.
+This repository contains the ABIs and contract addresses of KoinDX's main functionalities.
 
 ## Contract Directions
 
