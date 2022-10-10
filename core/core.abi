@@ -1,0 +1,89 @@
+{
+    "methods": {
+        "get_configs": {
+            "argument": "core.get_configs_arguments",
+            "return": "core.get_configs_result",
+            "description": "get configs of protocol",
+            "entry-point": "0x2b7fc0cc",
+            "read-only": true
+        },
+        "set_configs": {
+            "argument": "core.set_configs_arguments",
+            "return": "core.set_configs_result",
+            "description": "set configs of protocol",
+            "entry-point": "0x5ff0b386",
+            "read-only": false
+        },
+        "get_reserve": {
+            "argument": "core.get_reserve_arguments",
+            "return": "core.get_reserve_result",
+            "description": "Get the liquidity reserves of a pair of tokens",
+            "entry-point": "0x0cdf92bc",
+            "read-only": true
+        },
+        "get_liquidity": {
+            "argument": "core.get_liquidity_arguments",
+            "return": "core.get_liquidity_result",
+            "description": "Get the position of a user in a country",
+            "entry-point": "0x38f05706",
+            "read-only": true
+        },
+        "transfer_liquidity": {
+            "argument": "core.transfer_liquidity_arguments",
+            "return": "core.transfer_liquidity_result",
+            "description": "Transfer liquidity position to another address",
+            "entry-point": "0x1a037fc0",
+            "read-only": false
+        },
+        "add_liquidity": {
+            "argument": "core.add_liquidity_arguments",
+            "return": "core.add_liquidity_result",
+            "description": "Add liquidity to pair",
+            "entry-point": "0x070659cd",
+            "read-only": false
+        },
+        "remove_liquidity": {
+            "argument": "core.remove_liquidity_arguments",
+            "return": "core.remove_liquidity_result",
+            "description": "Remove liquidity from pair",
+            "entry-point": "0x26c78db1",
+            "read-only": false
+        },
+        "swap_tokens_in": {
+            "argument": "core.swap_tokens_in_arguments",
+            "return": "core.swap_tokens_in_result",
+            "description": "Swap tokens with exact input",
+            "entry-point": "0x8b35a506",
+            "read-only": false
+        },
+        "swap_tokens_out": {
+            "argument": "core.swap_tokens_out_arguments",
+            "return": "core.swap_tokens_out_result",
+            "description": "Swap tokens with exact output",
+            "entry-point": "0xe02d8fbd",
+            "read-only": false
+        },
+        "get_quote": {
+            "argument": "core.get_quote_arguments",
+            "return": "core.get_quote_result",
+            "description": "Get quote depending on reservations",
+            "entry-point": "0x3f98e58d",
+            "read-only": true
+        },
+        "get_amount_out": {
+            "argument": "core.get_amount_out_arguments",
+            "return": "core.get_amount_out_result",
+            "description": "Get amounts out",
+            "entry-point": "0x2184ef25",
+            "read-only": true
+        },
+        "get_amount_in": {
+            "argument": "core.get_amount_in_arguments",
+            "return": "core.get_amount_in_result",
+            "description": "Get amounts in",
+            "entry-point": "0x45378fcb",
+            "read-only": true
+        }
+    },
+    "types": "CpgdChlhc3NlbWJseS9wcm90by9jb3JlLnByb3RvEgRjb3JlGhRrb2lub3Mvb3B0aW9ucy5wcm90byJYChBkaXNjb3VudHNfb2JqZWN0EiEKDHRva2VuX2Ftb3VudBgBIAEoBFILdG9rZW5BbW91bnQSIQoMZmVlX2Rpc2NvdW50GAIgASgNUgtmZWVEaXNjb3VudCJ6Cg5jb25maWdzX29iamVjdBIVCgZmZWVfb24YASABKAhSBWZlZU9uEhsKBmZlZV90bxgCIAEoDEIEgLUYBlIFZmVlVG8SNAoJZGlzY291bnRzGAMgAygLMhYuY29yZS5kaXNjb3VudHNfb2JqZWN0UglkaXNjb3VudHMikAEKC3Bvb2xfb2JqZWN0Eh8KCXJlc2VydmVfYRgBIAEoBEICMAFSCHJlc2VydmVBEh8KCXJlc2VydmVfYhgCIAEoBEICMAFSCHJlc2VydmVCEiUKDHRvdGFsX3NoYXJlcxgDIAEoBEICMAFSC3RvdGFsU2hhcmVzEhgKB2NyZWF0ZWQYBCABKAhSB2NyZWF0ZWQikgEKGmxpcXVpZGl0eV9wb3NpdGlvbnNfb2JqZWN0EhoKBW93bmVyGAEgASgMQgSAtRgGUgVvd25lchIdCgd0b2tlbl9hGAIgASgMQgSAtRgGUgZ0b2tlbkESHQoHdG9rZW5fYhgDIAEoDEIEgLUYBlIGdG9rZW5CEhoKBnNoYXJlcxgEIAEoBEICMAFSBnNoYXJlcyIXChVnZXRfY29uZmlnc19hcmd1bWVudHMiQAoSZ2V0X2NvbmZpZ3NfcmVzdWx0EioKBXZhbHVlGAEgASgLMhQuY29yZS5jb25maWdzX29iamVjdFIFdmFsdWUiQwoVc2V0X2NvbmZpZ3NfYXJndW1lbnRzEioKBXZhbHVlGAEgASgLMhQuY29yZS5jb25maWdzX29iamVjdFIFdmFsdWUiLAoSc2V0X2NvbmZpZ3NfcmVzdWx0EhYKBnJlc3VsdBgBIAEoCFIGcmVzdWx0IlUKFWdldF9yZXNlcnZlX2FyZ3VtZW50cxIdCgd0b2tlbl9hGAEgASgMQgSAtRgGUgZ0b2tlbkESHQoHdG9rZW5fYhgCIAEoDEIEgLUYBlIGdG9rZW5CIn0KEmdldF9yZXNlcnZlX3Jlc3VsdBIfCglyZXNlcnZlX2EYASABKARCAjABUghyZXNlcnZlQRIfCglyZXNlcnZlX2IYAiABKARCAjABUghyZXNlcnZlQhIlCgx0b3RhbF9zaGFyZXMYAyABKARCAjABUgt0b3RhbFNoYXJlcyJzChdnZXRfbGlxdWlkaXR5X2FyZ3VtZW50cxIaCgVvd25lchgBIAEoDEIEgLUYBlIFb3duZXISHQoHdG9rZW5fYRgCIAEoDEIEgLUYBlIGdG9rZW5BEh0KB3Rva2VuX2IYAyABKAxCBIC1GAZSBnRva2VuQiIyChRnZXRfbGlxdWlkaXR5X3Jlc3VsdBIaCgZzaGFyZXMYASABKARCAjABUgZzaGFyZXMipgEKHHRyYW5zZmVyX2xpcXVpZGl0eV9hcmd1bWVudHMSGAoEZnJvbRgBIAEoDEIEgLUYBlIEZnJvbRIUCgJ0bxgCIAEoDEIEgLUYBlICdG8SHQoHdG9rZW5fYRgDIAEoDEIEgLUYBlIGdG9rZW5BEh0KB3Rva2VuX2IYBCABKAxCBIC1GAZSBnRva2VuQhIYCgV2YWx1ZRgFIAEoBEICMAFSBXZhbHVlIjEKGXRyYW5zZmVyX2xpcXVpZGl0eV9yZXN1bHQSFAoFdmFsdWUYASABKAhSBXZhbHVlIv8BChdhZGRfbGlxdWlkaXR5X2FyZ3VtZW50cxIdCgd0b2tlbl9hGAEgASgMQgSAtRgGUgZ0b2tlbkESHQoHdG9rZW5fYhgCIAEoDEIEgLUYBlIGdG9rZW5CEiwKEGFtb3VudF9hX2Rlc2lyZWQYAyABKARCAjABUg5hbW91bnRBRGVzaXJlZBIsChBhbW91bnRfYl9kZXNpcmVkGAQgASgEQgIwAVIOYW1vdW50QkRlc2lyZWQSJAoMYW1vdW50X2FfbWluGAUgASgEQgIwAVIKYW1vdW50QU1pbhIkCgxhbW91bnRfYl9taW4YBiABKARCAjABUgphbW91bnRCTWluIi4KFGFkZF9saXF1aWRpdHlfcmVzdWx0EhYKBnJlc3VsdBgBIAEoCFIGcmVzdWx0IsgBChpyZW1vdmVfbGlxdWlkaXR5X2FyZ3VtZW50cxIdCgd0b2tlbl9hGAEgASgMQgSAtRgGUgZ0b2tlbkESHQoHdG9rZW5fYhgCIAEoDEIEgLUYBlIGdG9rZW5CEiAKCWxpcXVpZGl0eRgDIAEoBEICMAFSCWxpcXVpZGl0eRIkCgxhbW91bnRfYV9taW4YBCABKARCAjABUgphbW91bnRBTWluEiQKDGFtb3VudF9iX21pbhgFIAEoBEICMAFSCmFtb3VudEJNaW4iMQoXcmVtb3ZlX2xpcXVpZGl0eV9yZXN1bHQSFgoGcmVzdWx0GAEgASgIUgZyZXN1bHQimwEKGHN3YXBfdG9rZW5zX2luX2FyZ3VtZW50cxIfCglhbW91bnRfaW4YASABKARCAjABUghhbW91bnRJbhIoCg5hbW91bnRfb3V0X21pbhgCIAEoBEICMAFSDGFtb3VudE91dE1pbhISCgRwYXRoGAMgAygJUgRwYXRoEiAKCHJlY2VpdmVyGAQgASgMQgSAtRgGUghyZWNlaXZlciIvChVzd2FwX3Rva2Vuc19pbl9yZXN1bHQSFgoGcmVzdWx0GAEgASgIUgZyZXN1bHQinAEKGXN3YXBfdG9rZW5zX291dF9hcmd1bWVudHMSIQoKYW1vdW50X291dBgBIAEoBEICMAFSCWFtb3VudE91dBImCg1hbW91bnRfaW5fbWF4GAIgASgEQgIwAVILYW1vdW50SW5NYXgSEgoEcGF0aBgDIAMoCVIEcGF0aBIgCghyZWNlaXZlchgEIAEoDEIEgLUYBlIIcmVjZWl2ZXIiMAoWc3dhcF90b2tlbnNfb3V0X3Jlc3VsdBIWCgZyZXN1bHQYASABKAhSBnJlc3VsdCJ4ChNnZXRfcXVvdGVfYXJndW1lbnRzEh8KCWFtb3VudF9pbhgBIAEoBEICMAFSCGFtb3VudEluEh8KCXJlc2VydmVfYRgCIAEoBEICMAFSCHJlc2VydmVBEh8KCXJlc2VydmVfYhgDIAEoBEICMAFSCHJlc2VydmVCIi4KEGdldF9xdW90ZV9yZXN1bHQSGgoGcmVzdWx0GAEgASgEQgIwAVIGcmVzdWx0In0KGGdldF9hbW91bnRfb3V0X2FyZ3VtZW50cxIfCglhbW91bnRfaW4YASABKARCAjABUghhbW91bnRJbhIfCglyZXNlcnZlX2EYAiABKARCAjABUghyZXNlcnZlQRIfCglyZXNlcnZlX2IYAyABKARCAjABUghyZXNlcnZlQiIzChVnZXRfYW1vdW50X291dF9yZXN1bHQSGgoGcmVzdWx0GAEgASgEQgIwAVIGcmVzdWx0In4KF2dldF9hbW91bnRfaW5fYXJndW1lbnRzEiEKCmFtb3VudF9vdXQYASABKARCAjABUglhbW91bnRPdXQSHwoJcmVzZXJ2ZV9hGAIgASgEQgIwAVIIcmVzZXJ2ZUESHwoJcmVzZXJ2ZV9iGAMgASgEQgIwAVIIcmVzZXJ2ZUIiMgoUZ2V0X2Ftb3VudF9pbl9yZXN1bHQSGgoGcmVzdWx0GAEgASgEQgIwAVIGcmVzdWx0IicKC2Vycm9yX2V2ZW50EhgKB21lc3NhZ2UYASABKAlSB21lc3NhZ2UilwEKE3Bvb2xfY3JlYXRpb25fZXZlbnQSHQoHdG9rZW5fYRgBIAEoDEIEgLUYBlIGdG9rZW5BEh0KB3Rva2VuX2IYAiABKAxCBIC1GAZSBnRva2VuQhIiCgl0aW1lc3RhbXAYAyABKARCBIC1GAZSCXRpbWVzdGFtcBIeCgdjcmVhdG9yGAQgASgMQgSAtRgGUgdjcmVhdG9yIpcBChNhZGRfbGlxdWlkaXR5X2V2ZW50Eh0KB3Rva2VuX2EYASABKAxCBIC1GAZSBnRva2VuQRIdCgd0b2tlbl9iGAIgASgMQgSAtRgGUgZ0b2tlbkISIAoJbGlxdWlkaXR5GAMgASgEQgIwAVIJbGlxdWlkaXR5EiAKCHJlY2VpdmVyGAQgASgMQgSAtRgGUghyZWNlaXZlciK2AQoWcmVtb3ZlX2xpcXVpZGl0eV9ldmVudBIdCgd0b2tlbl9hGAEgASgMQgSAtRgGUgZ0b2tlbkESHQoHdG9rZW5fYhgCIAEoDEIEgLUYBlIGdG9rZW5CEh0KCGFtb3VudF9hGAMgASgEQgIwAVIHYW1vdW50QRIdCghhbW91bnRfYhgEIAEoBEICMAFSB2Ftb3VudEISIAoIcmVjZWl2ZXIYBSABKAxCBIC1GAZSCHJlY2VpdmVyIr0BChFzd2FwX3Rva2Vuc19ldmVudBIfCgh0b2tlbl9pbhgBIAEoDEIEgLUYBlIHdG9rZW5JbhIhCgl0b2tlbl9vdXQYAiABKAxCBIC1GAZSCHRva2VuT3V0Eh8KCWFtb3VudF9pbhgDIAEoBEICMAFSCGFtb3VudEluEiEKCmFtb3VudF9vdXQYBCABKARCAjABUglhbW91bnRPdXQSIAoIcmVjZWl2ZXIYBSABKAxCBIC1GAZSCHJlY2VpdmVyIngKGHRyYW5zZmVyX2xpcXVpZGl0eV9ldmVudBIYCgRmcm9tGAEgASgMQgSAtRgGUgRmcm9tEhQKAnRvGAIgASgMQgSAtRgGUgJ0bxISCgRwYWlyGAMgASgJUgRwYWlyEhgKBXZhbHVlGAQgASgEQgIwAVIFdmFsdWViBnByb3RvMw=="
+}
